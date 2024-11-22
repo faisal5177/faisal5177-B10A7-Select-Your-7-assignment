@@ -3,7 +3,7 @@ import NavbarLogo from "../../assets/images/logo.png";
 
 const NavBar = ({ coins }) => {
   return (
-    <nav className="flex justify-between py-3 mt-5">
+    <nav className="flex justify-between py-3 mt-5 rounded-lg glass sticky top-0 z-10">
       <div>
         <a>
           <img className="w-[60px]" src={NavbarLogo} alt="Logo" />

@@ -18,7 +18,7 @@ const Banner = ({ coins, setCoins, selectedPlayers = [] }) => {
   };
 
   return (
-    <div>
+    <div className="">
       <div className="text-center rounded-2xl py-16 bg-gradient-to-tr from-[#052d55] via-black to-[#b05981]">
         <img className="mx-auto -mt-10 mb-5" src={BannerImg} alt="banner" />
         <h2 className="text-white mb-5 text-3xl font-bold">
