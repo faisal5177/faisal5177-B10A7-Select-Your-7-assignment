@@ -27,12 +27,14 @@ const Banner = ({ coins, setCoins, selectedPlayers = [] }) => {
         <p className="font-semibold text-center mb-5 text-gray-500">
           Beyond Boundaries, Beyond Limits
         </p>
+        <a className="border rounded-xl px-2 py-4 border-gray-300">
         <button
           onClick={handleClaimCredit}
           className="btn btn-sm mt-4 bg-[#E7FE29] mx-auto rounded-lg"
         >
           Claim Free Credit
         </button>
+        </a>
       </div>
 
       {showAlert && (
